@@ -1,6 +1,7 @@
 <?php 
 require_once 'core/init.php';
 
+// login
 
 if (Input::exists()) {
 

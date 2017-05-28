@@ -1,4 +1,7 @@
 <?php
+
+// log a user out
+
 require_once 'core/init.php';
 
 $user = new User();
