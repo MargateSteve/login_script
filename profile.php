@@ -14,7 +14,7 @@ if (!$username = Input::get('user')) {
     ?>
 
 
-    <h3><?php echo escape($data->username); ?></h3>
+    <h3>page : <?php echo escape($data->username); ?></h3>
     <p>Name: <?php echo escape($data->firstname. ' '.$data->lastname ); ?></p>
 
     <?php
